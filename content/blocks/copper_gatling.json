@@ -1,0 +1,32 @@
+{
+  "type": "DoubleTurret",
+  "name": "Copper Gatling",
+  "description": "A gatling turret that uses copper",
+  "health": 100,
+  "size": 1,
+  "reload": 10,
+  "range": 120,
+  "ammoUseEffect": "shellEjectSmall",
+  "inaccuracy": 5,
+  "rotatespeed": 9,
+  "ammo": {
+    "copper": {
+      "speed": 15.0,
+      "damage": 15,
+      "bulletWidth": 2,
+      "bulletHeight": 2,
+      "shootEffect": "shootSmall",
+      "smokeEffect": "shootSmallSmoke",
+      "targetAir": false,
+      "ammoMultiplier": 10
+    }
+  },
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 50
+    }
+  ],
+  "category": "turret",
+  "research": "copper-wall"
+}
